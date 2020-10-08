@@ -270,6 +270,33 @@ a {
 }
 
 /*Tablet view*/
+@media (min-width: 768px) and (max-width: 899px) {
+   .top-section {
+    height: 80px;
+    position: relative;
+   }
 
+   .summary-section {
+    height: 200px;
+   }
+
+   .heading-frontend-developer {
+    margin-right: 300px;
+  }
+
+   .heading-system-specialist {
+    margin-right: 300px;
+  }
+
+  .social-media-container {
+    position: absolute;
+    right: 100px;
+    top: 70px;
+  }
+}
 /*Desktop view*/
+
+@media (min-width: 900px) {
+
+}
 
