@@ -1,0 +1,270 @@
+.header {
+    background-color: white;
+    
+}
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.social-media-icon {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 2px
+}
+
+.top-section {
+    background-image: url("./assets/hot-pink.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 200px;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 300px;
+    margin-top: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .heading-portfolio {
+      font-family: 'Roboto',sans-serif;
+      font-size: 10px;
+      color: white;
+  }
+
+  .name {
+      font-family: 'Roboto',sans-serif;
+      font-weight: 1px;
+  }
+
+  .heading-frontend-developer {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: auto;
+  }
+
+  .heading-system-specialist {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .profile-image {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      border: 3px solid white
+  }
+
+  .line-bullet {
+      width: 10px;
+      border: 1px solid red;
+      margin-bottom: 190px;
+      margin-right: 5px;
+      position: absolute;
+      margin-top: 10px;
+  }
+  
+
+  .summary-section {
+      background-color: lightgray;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+  }
+
+ .summary-description {
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 5px;
+    line-height: 25px;
+    margin-left: 60px;
+}
+
+.tech-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-heading {
+    border: 1px solid red;
+    display: inline;
+    padding: 2px;
+    background-color: red;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+}
+
+.section-subheading {
+    color: red;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.featured-projects-section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.featured-projects-section h3 {
+    margin-top: 20px;
+}
+
+.see-more-icon {
+    color: red;
+    text-decoration: underline;
+}
+
+.project-image {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.projects-subheading {
+    color: red;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+
+.projects-paragraph {
+    font-family: 'Roboto',sans-serif;
+}
+
+.skill-box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-box {
+    width: 100px;
+    border: 1px solid pink;
+    background-color: pink;
+    margin: 5px;
+    font-family: 'Roboto',sans-serif;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.my-thoughts-section {
+    margin-top: 40px;
+}
+
+.my-thoughts-image {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.date-heading {
+    font-family: roboto;
+    font-size: 15px;
+    color: red;
+}
+
+.my-thoughts-section h3 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
+
+.my-thoughts-section p {
+    font-family: 'Roboto',sans-serif;
+}
+
+.skills-section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.skills-section h2 {
+    margin-right: 1000px;
+    
+}
+
+.skills-section h4 {
+    color: red;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-weight: regular;
+}
+
+.skills-section li {
+    font-weight: lighter;
+}
+
+.skill-card {
+    width: 50%;
+    text-align: center;
+}
+
+.for-more-section h2 {
+    margin-right: 250px;
+}
+
+.social-media-icons-medium {
+    border: 3px solid red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.contact-section {
+    background-color: blue;
+}
+
+.contact-heading {
+    font-family: 'Roboto',sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-name {
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+}
+
+.contact-info {
+    font-family: 'Roboto',sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+}
+
+.contact-section a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+/*Tablet view*/
+
+/*Desktop view*/
+
