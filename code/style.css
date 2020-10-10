@@ -359,27 +359,129 @@ a {
 /*Tablet view*/
 @media (min-width: 768px) and (max-width: 899px) {
    .top-section {
-    height: 80px;
+    height: 300px;
     position: relative;
    }
 
-   .summary-section {
-    height: 200px;
-   }
+   .heading-portfolio {
+    font-size: 15px;
+}
 
    .heading-frontend-developer {
     margin-right: 300px;
+    font-size: 40px;
   }
 
    .heading-system-specialist {
     margin-right: 300px;
+    margin-top: 200px;
   }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    bottom: -12px;
+}
 
   .social-media-container {
     position: absolute;
     right: 100px;
     top: 70px;
   }
+
+  .summary-section {
+    height: 200px;
+ }
+
+   .summary-description {
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 5px;
+    line-height: 25px;
+    padding-top: 20px;
+ }
+
+ .section-heading {
+    font-size: 17px;
+ }
+
+ .tech-section {
+     font-size: 15px;
+ }
+
+ .projects-subheading {
+    font-size: 15px;
+}
+
+.project-card {
+    width: 70%
+}
+
+ .project-image {
+    height: 200px;
+    width: 70%;
+}
+
+.projects-paragraph {
+    font-size: 15px;
+}
+
+.other-projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.my-thoughts-section p {
+    font-size: 15px;
+}
+
+.date-heading {
+    font-size: 15px;
+}
+
+.latest-thought-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-thought-card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.more-thoughts-subsection {
+    width: 100%;
+}
+
+.more-thoughts-subsection h3 {
+    text-align: center;
+}
+
+.skill-card {
+    width: 25%
+}
+
+.skills-section h2 {
+    margin-right: 400px;
+    margin-left: 290px;
+}
+
+.skills-section h4 {
+    font-size: 15px;
+}
+
+.skills-section li {
+    font-size: 15px;
+}
+
+.contact-name {
+    font-size: 15px;
+}
+.contact-info {
+    font-size: 15px;
+}
+
 }
 /*Desktop view*/
 
@@ -485,7 +587,6 @@ a {
 
     .date-heading {
         font-size: 17px;
-       
     }
 
     .more-thoughts-subsection {
@@ -513,6 +614,12 @@ a {
         font-size: 17px;
     }
    
+    .contact-name {
+        font-size: 17px;
+    }
+    .contact-info {
+        font-size: 17px;
+    }
 
 }
 
