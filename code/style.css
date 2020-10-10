@@ -131,6 +131,8 @@
     background-color: lightgray;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -219,6 +221,17 @@ a {
     margin-right: 190px;
 }*/
 
+.latest-thought-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-thought-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .latest-thought-text-container {
     display: flex;
     flex-direction: column;
@@ -228,7 +241,6 @@ a {
 .latest-thought-text-container h3 {
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
-
 }
 
 .my-thoughts-section p {
@@ -267,7 +279,6 @@ a {
 .skills-section h4 {
     color: red;
     font-family: 'Roboto',sans-serif;
-    margin-bottom: 45px;
     text-align: center;
     font-size: 13px;
 }
@@ -287,6 +298,13 @@ a {
 .skill-card {
     width: 50%;
     text-align: center;
+}
+
+.skill-card li {
+    list-style-type: none;
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-weight: regular;
 }
 
 .for-more-section {
@@ -366,6 +384,135 @@ a {
 /*Desktop view*/
 
 @media (min-width: 900px) {
+    .top-section {
+        height: 400px;
+      }
+
+    .heading-portfolio {
+        font-size: 15px;
+    }
+    .heading-frontend-developer {
+        font-size: 40px;
+        width: 50%;
+      }
+
+    .heading-system-specialist {
+        font-size: 23px;
+        width: 50%;
+        margin-right: 400px;
+        margin-top: 250px;
+      }
+    
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        right: 100px;
+        bottom: -16px;
+    }
+
+    .summary-section {
+        height: 200px;
+    }
+
+    .summary-description {
+        line-height: 30px;
+        font-size: 18px;
+        padding: 20px;
+    }
+    
+    .section-heading {
+        font-size: 25px;
+    }
+    
+    .featured-projects-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .featured-projects-section h2{
+        margin-top: 0;
+        margin-right: 208px;
+        margin-left: 200px;
+    }
+
+    .project-card {
+        width: 50%
+    }
+
+    .projects-subheading {
+        font-size: 17px;
+    }
+
+    .projects-paragraph {
+        font-size: 17px;
+    }
+
+    .featured-projects-section h3 {
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 209px;
+        margin-left: 200px;
+    }
+
+    .other-projects-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .my-thoughts-image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .my-thoughts-section p {
+        font-size: 17px;
+    }
+
+    .latest-thought-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .latest-thought-card {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .date-heading {
+        font-size: 17px;
+       
+    }
+
+    .more-thoughts-subsection {
+        width: 100%;
+    }
+
+    .more-thoughts-subsection h3 {
+      text-align: center;
+    }
+
+    .skill-card {
+        width: 25%
+    }
+
+    .skills-section h2 {
+        margin-right: 500px;
+        margin-left: 340px;
+    }
+
+    .skills-section h4 {
+        font-size: 17px;
+    }
+    
+    .skills-section li {
+        font-size: 17px;
+    }
+   
 
 }
 
