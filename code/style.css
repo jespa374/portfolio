@@ -521,6 +521,10 @@ a {
     .section-heading {
         font-size: 25px;
     }
+
+    .tech-section {
+        font-size: 17px;
+    }
     
     .featured-projects-section {
         display: flex;
@@ -538,6 +542,11 @@ a {
 
     .project-card {
         width: 50%
+    }
+
+    .project-image {
+        height: 200px;
+        width: 70%;
     }
 
     .projects-subheading {
